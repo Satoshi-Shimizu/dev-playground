@@ -11,15 +11,48 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/avantui.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Satoshi's Portfolio</title>
     </head>
 
     <body>
-        <h1>Hello, world!</h1>
-
         <!-- jQuery first, then Bootstrap JS, then Avant UI -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
         <script src="assets/js/avantui.js"></script>
+        <div class="container-fluid">
+
+        <header class="header">
+            <h1>Hello, world!</h1>
+        </header>
+        
+        <section class="about">
+            <div class="card card-testimonial bg-light">
+                <div class="card-body d-flex flex-row align-items-center pb-3">
+                    <img src="public/images/20190825104840IMG_0498.jpg" class="img-avatar rounded-circle" alt="Avatar image">
+                    <div class="d-flex flex-column">
+                        <span class="person small ml-2"><strong>さとし</strong></span>
+                        <span class="person-role small text-muted ml-2">Co-founder</span>
+                    </div>
+                </div>
+                <div class="card-body pt-0">
+                    <p class="card-text">Nulla felis dolor, place rat id magna ac trist ique trist ique erat volut pat sed tortor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="card card-article position-relative">
+                <img src="public/images/freelance_top_image.png" class="card-img-top" alt="image">
+                <span class="card-tag position-absolute small text-white bg-warning rounded m-3 my-2 px-2 py-1">NEW</span>
+                <div class="card-body">
+                    <h6 class="card-title">Architecture</h6>
+                    <p class="card-text">Nam magna sapien, fermentum non libero at, blandit euismod ex est ac dolor magna.</p>
+                    <a href="#" class="btn btn-success">More info</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+        </section>
     </body>
 </html>

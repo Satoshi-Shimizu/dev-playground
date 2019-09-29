@@ -1,0 +1,22 @@
+.header {
+  height: 100vh;
+  background-color: #FFCC33;
+}
+
+.about {
+  height: 100vh;
+  background-color: rgb(226, 126, 126);
+  background: url('../images/undraw_static_assets_rpm6.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.works {
+  height: 100vh;
+  background-color: white;
+}
+
+.contact {
+  height: 100vh;
+  background-color:white;
+}
