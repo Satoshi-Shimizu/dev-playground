@@ -44,6 +44,7 @@ body {
   height: 100vh;
   background-color: white;
   background: #FEE856;
+  color: white;
 
 }
 
@@ -94,9 +95,8 @@ body {
 }
 
 .service-inner {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   padding-left: 30px;
-
 }
 
 .icon i{
@@ -112,6 +112,7 @@ body {
   }
 }
 .feature-left {
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px){
@@ -121,4 +122,7 @@ body {
 }
 
 .feature-copy {
+  padding-top: 20px;
+  padding-left: 30px;
+  display: inline-block;
 }
