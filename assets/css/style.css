@@ -3,32 +3,49 @@
 }
 
 body {
-  text-align: center;
   font-size: 0.8rem;
+  min-width: 576px;
 }
 
-.header {
+.container-fluid {
+  padding-left:15px;
+  padding-right: 15px;
 }
 
 .about {
-  height: 100vh;
-  background-color: #FFCC33;
-  background-position: right center;
+  
+  
+}
+
+.text-center {
+  text-align: center;
+}
+
+.about {
+  height: 50vh;
+  background-size:contain;
   background-repeat: no-repeat;
-  background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
-  background: linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('../images/undraw_product_teardown_elol.svg');  /* 背景画像指定 */
+  background: linear-gradient(to top,
+                            rgba(217, 175, 217, 0.7) 0%,
+                            rgba(151, 217, 225, 0.7) 100%),
+                              url('../images/undraw_manage_chats_ylx0.svg');  /* 背景画像指定 */
+
 }
 
 .service {
-  height: 100vh;
+  height:80vh;
   background-color: white;
 }
+
+
 .works {
   height: 100vh;
   background-color: white;
   background: url('../images/undraw_static_assets_rpm6.png');
   background-repeat: no-repeat;
   background-size: contain;
+  background: #FEE856;
+  
 }
 
 .contact {
@@ -71,4 +88,42 @@ body {
 
 .button-orange {
   background-color: #f1b400;
+}
+
+.service-title {
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.service-inner {
+  margin-bottom: 50px;
+  padding-left: 30px;
+
+}
+
+.icon i{
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  color: #dd356e;
+}
+
+@media screen and (max-width: 992px){
+  .feature-left {
+    margin-bottom: 30px;
+  }
+}
+.feature-left {
+  float: left;
+}
+
+@media screen and (max-width: 768px){
+  .feature-copy{
+    width:84%;
+  }
+}
+
+.feature-copy {
+  float: right;
 }

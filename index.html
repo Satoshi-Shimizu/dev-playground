@@ -10,6 +10,7 @@
         <!-- Bootstrap , Avant UI and Google Font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/avantui.css">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -21,8 +22,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
         <script src="assets/js/avantui.js"></script>
-        <div class="container-fluid">
-
+        
         <header class="header">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <a class="navbar-brand" href="#">
@@ -61,78 +61,87 @@
                 </div>
             </nav>
         </header>
-
-        <div class="container-fluid">
-            <section class="row about">
-                <div class="col-xl-12">
-                    <p class="site-title-sub">----- Web application portfolio -----</p>
-                    <h1 class="site-title">My WORKS</h1>
-                    <p class="site-description">Check out some of my works.</p>
-                    <div class="buttons">
-                        <a class="button" href="#about">Learn MORE</a>
+        
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <p class="site-title-sub"></p>
+                        <h1 class="site-title">Hello world!!</h1>
+                        <p class="site-description">Check out some of my works.</p>
+                        <div class="buttons">
+                            <a class="button" href="#about">Learn MORE</a>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="service">
+        <section class="service">
+            <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 service-title text-center">
                         <p class="site-title-sub"></p>
                         <h1 class="site-title">At Your Service</h1>
                         <p class="site-description">Check out some of my works.</p>
                     </div>
-                <div>
-                <div class="row service-container">
-                    <div class="col-xs-12 col-md-6 service-inner">
-                        <div class="card card-article position-relative">
-                            <img src="..." class="card-img-top" alt="image">
-                            <span class="card-tag position-absolute small text-white bg-warning rounded m-3 my-2 px-2 py-1">NEW</span>
-                            <div class="card-body">
-                                <h6 class="card-title">Architecture</h6>
-                                <p class="card-text">Nam magna sapien, fermentum non libero at, blandit euismod ex est ac dolor magna.</p>
-                                <a href="#" class="btn btn-success">More info</a>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 service-inner">
+                        <div class="feature-left">
+                            <sapn class="icon">
+                                <i class="fas fa-code fa-4x"></i>
+                            </sapn>
+                        </div>
+                        <div class="feature-copy">
+                            <h3>Web site</h3>
+                            <p>あなたのビジネスイメージを形に</p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6 service-inner">
-                        <div class="card card-article position-relative">
-                            <img src="..." class="card-img-top" alt="image">
-                            <span class="card-tag position-absolute small text-white bg-warning rounded m-3 my-2 px-2 py-1">NEW</span>
-                            <div class="card-body">
-                                <h6 class="card-title">Architecture</h6>
-                                <p class="card-text">Nam magna sapien, fermentum non libero at, blandit euismod ex est ac dolor magna.</p>
-                                <a href="#" class="btn btn-success">More info</a>
-                            </div>
+                    <div class="col-md-4 col-xs-12 service-inner">
+                        <div class="feature-left">
+                            <sapn class="icon">
+                                <i class="far fa-file-video fa-4x"></i>
+                            </sapn>
+                        </div>
+                        <div class="feature-copy">
+                            <h3>Moive Edit</h3>
+                            <p>ビジネスを加速させるためのサポート</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 service-inner">
+                        <div class="feature-left">
+                            <sapn class="icon">
+                                <i class="fas fa-blog fa-4x"></i>
+                            </sapn>
+                        </div>
+                        <div class="feature-copy">
+                            <h3>Blog Start up</h3>
+                            <p>Blog初回設定のサポート</p>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="row works">
-                <div class="card card-article position-relative">
-                    <img src="public/images/freelance_top_image.png" class="card-img-top" alt="image">
-                    <span class="card-tag position-absolute small text-white bg-warning rounded m-3 my-2 px-2 py-1">NEW</span>
-                    <div class="card-body">
-                        <h6 class="card-title">Architecture</h6>
-                        <p class="card-text">Nam magna sapien, fermentum non libero at, blandit euismod ex est ac dolor magna.</p>
-                        <a href="#" class="btn btn-success">More info</a>
-                    </div>
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="contact">
-                <div class="card card-testimonial bg-light">
-                        <div class="card-body d-flex flex-row align-items-center pb-3">
-                            <img src="public/images/20190825104840IMG_0498.jpg" class="img-avatar rounded-circle" alt="Avatar image" style="width: 100px; height: 100px;">
-                            <div class="d-flex flex-column">
-                                <span class="person small ml-2"><strong>さとし</strong></span>
-                                <span class="person-role small text-muted ml-2">Co-founder</span>
-                            </div>
-                        </div>
-                        <div class="card-body pt-0">
-                            <p class="card-text">Nulla felis dolor, place rat id magna ac trist ique trist ique erat volut pat sed tortor.</p>
-                        </div>
+        <section class="works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 service-title text-center">
+                        <p class="site-title-sub"></p>
+                        <h1 class="site-title">Works</h1>
+                        <p class="site-description">Check out some of my works.</p>
                     </div>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
             </section>
-        </div>
-    </body>
+        </body>
 </html>
